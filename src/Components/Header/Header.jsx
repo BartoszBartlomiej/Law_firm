@@ -39,12 +39,11 @@ class Header extends Component {
                             </li>
                         </ul>
                     </nav>
-                    <div>
-                        <p>hambeks</p>
-                       
+                    <div className='hamburger'>
                         <Icon/>
                     </div>
                 </div>
+                <div className='picture'/>
             </header>
         );
     }

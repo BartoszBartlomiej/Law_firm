@@ -1,7 +1,7 @@
 // STYLES
 @import "./Styles/reset.scss";
 @import "./Styles/base.scss";
-// @import "./Styles/fonts.scss";
+ @import "./Styles/fonts.scss";
 @import "Styles/mixins.scss";
 
 
@@ -9,3 +9,6 @@
 
 @import "Components/Header/header";
 
+// ABOUT
+
+@import "Components/About/about";
