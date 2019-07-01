@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Agata from '../../img/Agata.jpg';
 
 class About extends Component {
     render() {
@@ -18,9 +19,11 @@ class About extends Component {
                             inventore iste magnam magni molestias nam neque, numquam quae quasi quibusdam, quo sint vel,
                             voluptate. Aliquam aperiam at blanditiis consequatur deserunt facilis molestias odit
                             officiis quasi temporibus, veritatis voluptatem voluptates? Blanditiis deleniti dignissimos
-                            dolorem eos, est facere in iure molestias nesciunt, quaerat, vitae.</p>
+                            dolorem eos, est facere in iure molestias nesciunt, quaerat, vitae.
+                        </p>
+                        <img alt='Agata Roszkiewicz-Lewicka' src={Agata}/>
                     </div>
-                    <img src={'../../img/Agata.jpg'}/>
+
 
 
 

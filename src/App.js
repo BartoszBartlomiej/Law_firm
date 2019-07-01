@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Components/Header/Header'
 import About from './Components/About/About'
+import Specializations from './Components/Specializations/Specializations';
 import './App.scss';
 
 
@@ -31,6 +32,7 @@ class App extends React.Component {
     <div className="App">
       <Header/>
       <About/>
+      <Specializations/>
     </div>
   );
 }
