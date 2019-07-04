@@ -1,15 +1,32 @@
 .specializations {
   padding-top: 2rem;
 
-    h3 {
-      font-size: 1.2rem;
-      font-family: 'Raleway', sans-serif;
+  h3 {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .under_line {
+    padding-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 10rem;
+    border-bottom: 2px solid gray;
+  }
+
+  .specializations__box {
+
+    .specializations__box__info {
+      h4 {
+        font-family: 'Raleway', sans-serif;
+      }
+
+      p {
+        font-family: 'Raleway', sans-serif;
+      }
+
+
+
     }
 
-    .under_line {
-      padding-top: 0.5rem;
-      margin-bottom: 2rem;
-      width: 10rem;
-      border-bottom: 2px solid gray;
-    }
   }
+}
