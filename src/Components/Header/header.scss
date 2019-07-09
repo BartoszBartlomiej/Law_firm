@@ -12,7 +12,7 @@ header {
 
     h1 {
       font-family: 'Raleway', sans-serif;
-      font-size: 1rem;
+      font-size: 1.12em;
 
       @include desktop {
         font-size: 1.2rem;
@@ -21,7 +21,7 @@ header {
 
     h2 {
       font-family: 'Raleway', sans-serif;
-      font-size: 0.8rem;
+      font-size: 1rem;
 
       @include desktop {
         font-size: 1rem;

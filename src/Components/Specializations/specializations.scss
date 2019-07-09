@@ -15,13 +15,30 @@
 
   .specializations__box {
 
+    .specializations__box__info:first-child {
+      h4 {
+        padding: 0 0 0.6rem 0;
+
+      }
+    }
+
     .specializations__box__info {
+
       h4 {
         font-family: 'Raleway', sans-serif;
+        padding: 1.2rem 0 0.4rem 0;
+      }
+
+      .under_line {
+        padding-top: 0;
+        margin-bottom: 0.5rem;
+        width: 5rem;
+        border-bottom: 2px solid gray;
       }
 
       p {
         font-family: 'Raleway', sans-serif;
+        text-align: justify;
       }
 
 

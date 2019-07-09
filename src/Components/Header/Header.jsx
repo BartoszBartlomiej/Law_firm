@@ -40,7 +40,7 @@ class Header extends Component {
                         </ul>
                     </nav>
                     <div className='hamburger'>
-                        <Icon/>
+                        {/*<Icon/>*/}
                     </div>
                 </div>
                 <div className='picture'/>
