@@ -1,0 +1,51 @@
+.reference {
+    padding-top: 4rem;
+    height: 30rem;
+
+    h3 {
+        font-size: 1.2rem;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .under_line {
+        padding-top: 0.5rem;
+        margin-bottom: 2rem;
+        width: 10rem;
+        border-bottom: 2px solid gray;
+    }
+
+    .reference__box {
+
+        .reference__box__info:first-child {
+            h4 {
+              padding: 0 0 0.6rem 0;
+      
+            }
+          }
+
+        .reference__box__info {
+
+
+      h4 {
+        font-family: 'Raleway', sans-serif;
+        padding: 1.2rem 0 0.4rem 0;
+      }
+
+      .under_line {
+        padding-top: 0;
+        margin-bottom: 0.5rem;
+        width: 5rem;
+        border-bottom: 2px solid gray;
+      }
+
+      p {
+        font-size: 1rem;
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;
+      }
+        }
+
+    }
+
+
+}
