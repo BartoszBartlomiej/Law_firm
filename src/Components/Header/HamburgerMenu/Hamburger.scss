@@ -1,0 +1,46 @@
+.hamburger {
+
+    .hamburger__icon {
+        width: 40px;
+        height: 35px;
+        border: 0;
+        border-top: 5px solid black;
+        background: transparent;
+        position: relative;
+        transition: 0.3s transform linear;
+
+
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            border-top: 5px solid black;
+            transform: translateY(10px);
+
+
+        }
+
+        &:after {
+            transform: translateY(25px);
+            transition: 0.3s transform linear;
+
+
+        }
+
+        &:focus {
+            transform: rotate(45deg) translateY(5px);
+            border: none;
+
+        }
+
+        &:focus::after {
+            transform: rotate(-90deg) translateX(-10px);
+        }
+
+    }
+}
+
+

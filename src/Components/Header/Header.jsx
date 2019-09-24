@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 // import HamburgerMenu from './HamburgerMenu/HamburgerMenu';
 import Icon from './HamburgerMenu/Icon';
+import HamburgerMenu from './HamburgerMenu/HamburgerMenu';
 
 
 class Header extends Component {
@@ -32,16 +33,15 @@ class Header extends Component {
                                 <a href='/'>CENNIK</a>
                             </li>
                             <li>
-                                <a href='/'>BLOG</a>
-                            </li>
-                            <li>
                                 <a href='/'>KONTAKT</a>
                             </li>
                         </ul>
                     </nav>
-                    <div className='hamburger'>
-                        {/*<Icon/>*/}
-                    </div>
+
+                    <HamburgerMenu />
+                    {/* <div className='hamburger'>
+                        <Icon/>
+                    </div> */}
                 </div>
                 <div className='picture'/>
             </header>

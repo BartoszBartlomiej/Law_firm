@@ -5,8 +5,8 @@ import { slide as Menu } from 'react-burger-menu'
 class HamburgerMenu extends Component {
     render() { 
         return (
-            <div>
-                <Menu id='slide'>
+            <div className='hamburger'>
+                <button className='hamburger__icon'></button>
                 <nav>
                         <ul>
                             <li>
@@ -25,14 +25,10 @@ class HamburgerMenu extends Component {
                                 <a href='/'>CENNIK</a>
                             </li>
                             <li>
-                                <a href='/'>BLOG</a>
-                            </li>
-                            <li>
                                 <a href='/'>KONTAKT</a>
                             </li>
                         </ul>
                     </nav>
-                </Menu>
 
             </div>
           );
