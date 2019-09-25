@@ -97,7 +97,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    filter: grayscale(80%);
+    filter: grayscale(60%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,7 +105,8 @@ header {
 
     @include desktop {
       background-position: bottom;
-      height: 40rem;
+      // height: 40rem;
+      height: 90vh;
     }
 
     img {

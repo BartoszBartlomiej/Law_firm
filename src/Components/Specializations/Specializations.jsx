@@ -39,7 +39,7 @@ class Specializations extends Component {
                                 dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
                         </div>
                         <div className="specializations__box__info">
-                            <h4>SPADKI</h4>
+                            <h4>PRAWO ADMINISTRACYJNE</h4>
                             <div className='under_line' />
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
                                 dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
@@ -52,6 +52,18 @@ class Specializations extends Component {
                         </div>
                         <div className="specializations__box__info">
                             <h4>PRAWO MEDYCZNE</h4>
+                            <div className='under_line' />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
+                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
+                        </div>
+                        <div className="specializations__box__info">
+                            <h4>UMOWY HANDLOWE</h4>
+                            <div className='under_line' />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
+                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
+                        </div>
+                        <div className="specializations__box__info">
+                            <h4>SPADKI</h4>
                             <div className='under_line' />
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
                                 dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>

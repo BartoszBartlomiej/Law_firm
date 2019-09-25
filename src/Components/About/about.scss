@@ -1,6 +1,6 @@
 .about {
-  padding-top: 2rem;
-
+  // padding-top: 2rem;
+    padding: 2rem 0 2rem 0;
   .about__header {
 
     h3 {
@@ -31,17 +31,16 @@
 
     img {
       width: 15rem;
-
     }
 
     @include desktop {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
       align-items: flex-start;
 
       p {
         width: 30rem;
+        margin-right: 5rem;
       }
     }
   }

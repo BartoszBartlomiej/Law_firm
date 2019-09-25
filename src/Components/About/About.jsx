@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Agata from '../../img/Agata.jpg';
+import Agata from '../../img/agata-01a.jpg';
 
 class About extends Component {
     render() {
