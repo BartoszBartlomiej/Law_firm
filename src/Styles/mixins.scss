@@ -2,11 +2,11 @@
   @media(min-width: 641px) {
     @content
   }
-}
+};
 
 @mixin desktop {
   @media(min-width: 1008px) {
     @content
   }
 
-}
+};

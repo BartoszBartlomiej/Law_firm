@@ -4,6 +4,14 @@ header {
     display: flex;
     justify-content: space-between;
 
+    @include desktop {
+
+      display: flex;
+      // justify-content: space-between;
+      // flex-direction: column;
+
+    }
+
   }
 
   .law_name {
@@ -14,14 +22,15 @@ header {
       font-family: 'Raleway', sans-serif;
       font-size: 1.12em;
 
+      @include tablet {
+        font-size: 1rem;
+      }
+
       @include desktop {
         font-size: 1.2rem;
 
       }
 
-      @include tablet {
-        font-size: 1rem;
-      }
     }
 
     h2 {
@@ -57,14 +66,25 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 50rem;
+        width: 42rem;
+
+
 
         a {
           text-decoration: none;
           color: black;
           font-family: 'Raleway', sans-serif;
-        }
+          font-size: 1rem;
+          padding-bottom: 0.3rem;
 
+          &:hover {
+            // transition: 1s linear;
+          border-bottom: 1px solid gray;
+          
+            
+          }
+
+        }
       }
     }
   }
@@ -78,10 +98,22 @@ header {
     background-size: cover;
     background-position: top center;
     filter: grayscale(80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
     @include desktop {
       background-position: bottom;
       height: 40rem;
+    }
+
+    img {
+      width: 20rem;
+      opacity: .7;
+    filter: grayscale(100%);
+
+
     }
 
 

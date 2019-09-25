@@ -6,6 +6,7 @@ import Icon from './HamburgerMenu/Icon';
 import HamburgerMenu from './HamburgerMenu/HamburgerMenu';
 
 
+
 class Header extends Component {
     render() {
         return (
@@ -38,12 +39,14 @@ class Header extends Component {
                         </ul>
                     </nav>
 
-                    <HamburgerMenu />
+                    {/* <HamburgerMenu /> */}
                     {/* <div className='hamburger'>
                         <Icon/>
                     </div> */}
                 </div>
-                <div className='picture'/>
+                <div className='picture'>
+                    <img src='https://adwokatura.krakow.pl/data/domains/1/pl/c_events_calendar/41/2533/images/logoadwokatura.png' />
+                </div>
             </header>
         );
     }
