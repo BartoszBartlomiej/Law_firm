@@ -13,6 +13,22 @@
     
   }
 
+  h3, h4 {
+      font-size: 1.2rem;
+      display: block;
+      width: 180px;
+      white-space: nowrap;
+      border-bottom: 2px solid $base-color;
+      padding-bottom: .4rem;
+      margin-bottom: 1rem;
+
+  
+  }
+
   h3 {
-    font-size: 1.2rem;
+    width: 180px;
+  }
+
+  h4 {
+    width: 130px;
   }
