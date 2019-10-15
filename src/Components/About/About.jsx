@@ -1,14 +1,17 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Agata from '../../img/agata-01a.jpg';
+
+import Article from '../Common/Article';
 
 class About extends Component {
     render() {
         return (
-            <div className='about'>
-                <div className='content'>
+            <Article>
+                <div className='about'>
+
                     <div className='about__header'>
                         <h3>O KANCELARII</h3>
-                        <div className='under_line'/>
+                        <div className='under_line' />
                     </div>
                     <div className='about__lawyer'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur delectus
@@ -21,14 +24,10 @@ class About extends Component {
                             officiis quasi temporibus, veritatis voluptatem voluptates? Blanditiis deleniti dignissimos
                             dolorem eos, est facere in iure molestias nesciunt, quaerat, vitae.
                         </p>
-                        <img alt='Agata Roszkiewicz-Lewicka' src={Agata}/>
+                        <img alt='Agata Roszkiewicz-Lewicka' src={Agata} />
                     </div>
-
-
-
-
                 </div>
-            </div>
+            </Article>
         );
     }
 }
