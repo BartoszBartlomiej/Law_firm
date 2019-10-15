@@ -1,10 +1,31 @@
 import React, { Component } from 'react';
 
-import Block from './Block';
+import Block from '../../Components/Common/Block';
 import Article from '../Common/Article';
 
+
 class Specializations extends Component {
+    constructor(props) {
+        super(props) 
+        this.state = {
+            posts: [],
+        }
+
+    }
+
+    componentDidMount() {
+        fetch('https://jsonplaceholder.typicode.com/posts/')
+        .then(response => response.json())
+        .then(json => this.setState({
+            posts: json.splice(0, 8),
+        }))
+    }
+
+
     render() {
+
+
+        console.log(this.state.posts)
 
         const data = [
             {
@@ -26,9 +47,16 @@ class Specializations extends Component {
 
         ]
 
-        const dataToDisplay = data.map(item => {
+        const dataToDisplay = data.map((item, index) => {
             return (
-                <Block title={item.title} content={item.content} />
+                <Block key={index} title={item.title} content={item.content} />
+            )
+        })
+
+
+        const postsData = this.state.posts.map((item, index) => {
+            return (
+                <Block key={item.id} title={item.title} content={item.body} />
             )
         })
 
@@ -39,11 +67,13 @@ class Specializations extends Component {
                 <div className='specializations'>
 
                     <h3>SPECJALIZACJE</h3>
-                    <div className='under_line' />
+                   
                     <div className='specializations__box'>
 
 
                         {dataToDisplay}
+
+                        {/* {postsData} */}
 
                         {/* <Block title="PRAWO PRACY" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
                                 dignissimos enim fugiat illum molestias nobis repellat, suscipit."/>
