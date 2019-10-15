@@ -1,0 +1,51 @@
+@import "../../../Styles/vairables.scss";
+
+@import "../../../Styles/mixins.scss";
+
+.under_line {
+    padding-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 10rem;
+    border-bottom: 2px solid gray;
+  }
+
+
+  // .specializations__box__info:first-child {
+  //   h4 {
+  //     padding: 0 0 0.6rem 0;
+
+  //   }
+  // }
+
+ .box {
+   width: 100%;
+   padding: 1rem;
+
+   @include tablet {
+    width: 50%;
+   }
+
+   @include desktop {
+     width: 25%;
+   }
+
+    .box__title {
+      font-size: 1rem;
+      font-family: 'Raleway', sans-serif;
+      padding: 1.2rem 0 0.4rem 0;
+      text-transform: uppercase;
+    }
+
+    .under_line {
+      padding-top: 0;
+      margin-bottom: 0.5rem;
+      width: 5rem;
+      border-bottom: 2px solid gray;
+    }
+
+    .box__content {
+      font-family: 'Raleway', sans-serif;
+      text-align: justify;
+    }
+
+  }
