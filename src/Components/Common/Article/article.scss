@@ -1,0 +1,10 @@
+@import "../../../Styles/vairables.scss";
+
+.article__wrapper {
+    background: $background-color-primary;
+    padding: 2rem 0;
+
+    &:nth-child(2n+1) {
+        background: $background-color-second;
+    }
+}
