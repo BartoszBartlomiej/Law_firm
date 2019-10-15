@@ -11,7 +11,6 @@ class About extends Component {
 
                     <div className='about__header'>
                         <h3>O KANCELARII</h3>
-                        <div className='under_line' />
                     </div>
                     <div className='about__lawyer'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur delectus

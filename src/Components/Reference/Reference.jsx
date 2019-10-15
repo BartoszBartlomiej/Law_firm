@@ -6,7 +6,7 @@ class Reference extends Component {
             <div className='reference'>
                 <div className='content'>
                     <h3>REFERENCJE</h3>
-                    <div className='under_line' />
+                 
                     <div className='reference__box'>
                         <div className='reference__box__info'>
                             <h4>IntoBeauty</h4>
