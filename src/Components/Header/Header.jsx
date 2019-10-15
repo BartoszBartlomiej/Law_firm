@@ -11,7 +11,7 @@ class Header extends Component {
     render() {
         return (
             <header>
-                <div className='content'>
+                <div className='content menu__wrapper'>
                     <div className='law_name'>
                         <h1>AGATA ROSZKIEWICZ-LEWICKA</h1>
                         <h2>Kancelaria Adwokacka</h2>

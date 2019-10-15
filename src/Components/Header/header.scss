@@ -1,6 +1,14 @@
 header {
 
+  .menu__wrapper {
+    border-bottom: 1px solid black;
+    background-color: #fff;
+    
+  }
   .content {
+
+
+
     display: flex;
     justify-content: space-between;
 
@@ -20,7 +28,10 @@ header {
 
     h1 {
       font-family: 'Raleway', sans-serif;
-      font-size: 1.12em;
+      font-size: 0.9em;
+      font-weight: 700;
+      z-index: 10;
+
 
       @include tablet {
         font-size: 1rem;
@@ -79,9 +90,9 @@ header {
 
           &:hover {
             // transition: 1s linear;
-          border-bottom: 1px solid gray;
-          
-            
+            border-bottom: 1px solid gray;
+
+
           }
 
         }
@@ -101,6 +112,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -10rem;
+    z-index: 1;
+    opacity: 0.4;
 
 
     @include desktop {
@@ -112,7 +126,7 @@ header {
     img {
       width: 20rem;
       opacity: .7;
-    filter: grayscale(100%);
+      filter: grayscale(100%);
 
 
     }
