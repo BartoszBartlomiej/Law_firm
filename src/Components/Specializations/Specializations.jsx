@@ -6,7 +6,7 @@ import Article from '../Common/Article';
 
 class Specializations extends Component {
     constructor(props) {
-        super(props) 
+        super(props)
         this.state = {
             posts: [],
         }
@@ -15,10 +15,10 @@ class Specializations extends Component {
 
     componentDidMount() {
         fetch('https://jsonplaceholder.typicode.com/posts/')
-        .then(response => response.json())
-        .then(json => this.setState({
-            posts: json.splice(0, 8),
-        }))
+            .then(response => response.json())
+            .then(json => this.setState({
+                posts: json.splice(0, 8),
+            }))
     }
 
 
@@ -41,9 +41,34 @@ class Specializations extends Component {
                 content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus dignissimos enim fugiat illum molestias nobis repellat, suscipit.',
             },
             {
-                title: 'prawo autorskie',
+                title: 'prawo cywilne',
+                content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus dignissimos enim fugiat illum molestias nobis repellat, suscipit.',
+            },
+            {
+                title: 'prawo rodzinne',
+                content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus dignissimos enim fugiat illum molestias nobis repellat, suscipit.',
+            },
+            {
+                title: 'prawo administracyje',
+                content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus dignissimos enim fugiat illum molestias nobis repellat, suscipit.',
+            },
+            {
+                title: 'prawo karne',
+                content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus dignissimos enim fugiat illum molestias nobis repellat, suscipit.',
+            },
+            {
+                title: 'prawo medyczne',
+                content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus dignissimos enim fugiat illum molestias nobis repellat, suscipit.',
+            },
+            {
+                title: 'prawo handlowe',
+                content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus dignissimos enim fugiat illum molestias nobis repellat, suscipit.',
+            },
+            {
+                title: 'spadki',
                 content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus dignissimos enim fugiat illum molestias nobis repellat, suscipit.',
             }
+
 
         ]
 
@@ -65,75 +90,10 @@ class Specializations extends Component {
         return (
             <Article>
                 <div className='specializations'>
-
                     <h3>SPECJALIZACJE</h3>
-                   
                     <div className='specializations__box'>
-
-
                         {dataToDisplay}
-
-                        {/* {postsData} */}
-
-                        {/* <Block title="PRAWO PRACY" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit."/>
-
-                        <div className="specializations__box__info">
-                            <h4>PRAWO GOSPODARCZE</h4>
-                            <div className='under_line' />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
-                        </div>
-                        <div className="specializations__box__info">
-                            <h4>PRAWO AUTORSKIE</h4>
-                            <div className='under_line' />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
-                        </div>
-                        <div className="specializations__box__info">
-                            <h4>PRAWO CYWILNE</h4>
-                            <div className='under_line' />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
-                        </div>
-                        <div className="specializations__box__info">
-                            <h4>PRAWO RODZINNE</h4>
-                            <div className='under_line' />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
-                        </div>
-                        <div className="specializations__box__info">
-                            <h4>PRAWO ADMINISTRACYJNE</h4>
-                            <div className='under_line' />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
-                        </div>
-                        <div className="specializations__box__info">
-                            <h4>PRAWO KARNE</h4>
-                            <div className='under_line' />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
-                        </div>
-                        <div className="specializations__box__info">
-                            <h4>PRAWO MEDYCZNE</h4>
-                            <div className='under_line' />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
-                        </div>
-                        <div className="specializations__box__info">
-                            <h4>UMOWY HANDLOWE</h4>
-                            <div className='under_line' />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
-                        </div>
-                        <div className="specializations__box__info">
-                            <h4>SPADKI</h4>
-                            <div className='under_line' />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae commodi delectus
-                                dignissimos enim fugiat illum molestias nobis repellat, suscipit.</p>
-                        </div> */}
                     </div>
-
                 </div>
             </Article>
         );
