@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import Article from '../Common/Article';
 
 class Reference extends Component {
     render() {
         return (
-            <div className='reference'>
-                <div className='content'>
+            <Article>
+                <div className='reference'>
                     <h3>REFERENCJE</h3>
-                 
                     <div className='reference__box'>
                         <div className='reference__box__info'>
                             <h4>IntoBeauty</h4>
@@ -28,7 +28,7 @@ class Reference extends Component {
                         </div> */}
                     </div>
                 </div>
-            </div>
+            </Article>
         );
     }
 }

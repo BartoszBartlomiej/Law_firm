@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Article from '../Common/Article';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
 import {
@@ -15,17 +16,17 @@ import { fab, faTwitter, faFacebookF, faYoutube, faGooglePlusG } from '@fortawes
 
 class Contact extends Component {
 
-    render() { 
-        return ( 
-            <div className='contact content'>
-                <div className='contact__address'>
-                    <h4><span><FontAwesomeIcon icon={faFacebookF} /></span> ADRES</h4>
+    render() {
+        return (
+            <Article>
+                <div className='contact'>
+                    <div className='contact__address'>
+                        <h4><span><FontAwesomeIcon icon={faFacebookF} /></span> ADRES</h4>
+                    </div>
                 </div>
-                
-
-            </div>
-         );
+            </Article>
+        );
     }
 }
- 
+
 export default Contact;
